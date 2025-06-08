@@ -6,6 +6,7 @@ In this paper, we introduce Autoregressive Semantic Visual Reconstruction , whic
 
 
 ![](./img/method.png)
+![](./img/intro.png)
 
 ## Release
 - [2025/6/9] 🔥 We release **ASVR**, training codes and visual tokenizer. Checkout the [paper]() for details.
