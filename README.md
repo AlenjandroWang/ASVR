@@ -13,7 +13,6 @@ In this paper, we introduce Autoregressive Semantic Visual Reconstruction , whic
 
 ## Contents
 - [Install](#install)
-- [Training Data](#data)
 - [Train](#train)
 - [Evaluation](#evaluation)
 
@@ -40,3 +39,7 @@ pip install -e .
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
+### Download visual tokenizer config and checkpoints
+
+ASVR takes the visual tokenizer from [Dualtoken]([https://huggingface.co/Songweii/DualToken] to construct visual supervision targets.
+Downloading the config and checkpoints from [this URL]() and put them into ```./model_zoo```.
