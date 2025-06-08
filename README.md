@@ -23,7 +23,7 @@ If you are not using Linux, do *NOT* proceed.
 
 1. Clone this repository and navigate into the codebase
 ```bash
-git clone https://github.com/Haochen-Wang409/ross.git
+git clone https://github.com/AlenjandroWang/ASVR.git
 cd asvr
 ```
 
