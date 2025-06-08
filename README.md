@@ -71,4 +71,16 @@ Training script with DeepSpeed ZeRO-2 can be found in ```scripts/finetune.sh```.
 
 ## Evaluation
 
-In ASVR, we evaluate models on a diverse set of benchmarks implemented based on [cambrian](https://github.com/cambrian-mllm/cambrian/tree/main/eval)
+In ASVR, we evaluate models on a diverse set of benchmarks implemented based on [Cambrian-1](https://github.com/cambrian-mllm/cambrian/tree/main/eval)
+
+
+## Citation
+
+If you find Ross useful for your research and applications, please cite using this BibTeX:
+
+## Acknowledgement
+- [LLaVA](https://github.com/haotian-liu/LLaVA): the codebase we built upon and the dataset we utilized.
+- [Bunny](https://github.com/BAAI-DCAI/Bunny): the dataset we utilized.
+- [LLaVA-Next](https://github.com/LLaVA-VL/LLaVA-NeXT): the dataset we utilized.
+- [Cambrian-1](https://github.com/cambrian-mllm/cambrian): the evaluation codebase we utilized.
+- [Mistral](https://huggingface.co/mistralai) and [Vicuna](https://github.com/lm-sys/FastChat): We thank Vicuna and Mistral for the open-source LLM checkpoints.
