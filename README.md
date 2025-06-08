@@ -40,7 +40,35 @@ pip install -e .
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
-### Download visual tokenizer config and checkpoints
+## Train
+ASVR training consists of two stages: 
+(1) Pretrain: Focus solely on optimizing the projector and the visual head to connect frozen pretrained vision encoders to a frozen LLM;
+(2) Instruction Tuning: Train projector, visual head and LLM to make model follow multimodal instructions.
 
-ASVR takes the visual tokenizer from [Dualtoken]([https://huggingface.co/Songweii/DualToken] to construct visual supervision targets.
+For GPU training on fewer GPUs, reduce the per_device_train_batch_size and increase the gradient_accumulation_steps accordingly, ensuring the global batch size remains the same: per_device_train_batch_size x gradient_accumulation_steps x num_gpus.
+
+## Download visual tokenizer config and checkpoints
+
+ASVR takes the visual tokenizer from [Dualtoken](https://huggingface.co/Songweii/DualToken) to construct visual supervision targets.
 Downloading the config and checkpoints from [this URL]() and put them into ```./model_zoo```.
+
+### Pretrain
+
+
+Pretrain Data ASVR used in the paper are include [LLaVA-1.5-pretrain-558k](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) and [bunny-pretrain-laion-2m](https://huggingface.co/datasets/BoyaWu10/Bunny-v1_1-data) 
+
+
+Training script with DeepSpeed ZeRO-2 can be found in ```scripts/pretrain.sh```. Global Batch Size is set 256
+
+- `--vision_tokenizer`: the visual tokenizer config.
+- `--vision_tokenizer_weight`: the visual tokenizer checkpoints.
+
+### Instruction Tuning
+
+Instruction Tuning Data ASVR used in the paper are include [LLaVA-1.5-665K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/blob/main/llava_v1_5_mix665k.json) , [LLaVA-Next-779K](https://huggingface.co/datasets/lmms-lab/LLaVA-NeXT-Data)and [Bunny-v1_1-data-2M](https://huggingface.co/datasets/BoyaWu10/Bunny-v1_1-data) 
+
+Training script with DeepSpeed ZeRO-2 can be found in ```scripts/finetune.sh```. Global Batch Size is set 128
+
+## Evaluation
+
+In ASVR, we evaluate models on a diverse set of benchmarks implemented based on [cambrian](https://github.com/cambrian-mllm/cambrian/tree/main/eval)
