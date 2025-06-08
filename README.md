@@ -6,3 +6,37 @@ In this paper, we introduce Autoregressive Semantic Visual Reconstruction , whic
 
 
 ![](./img/method.png)
+
+## Release
+- [2025/6/9] 🔥 We release **ASVR**, training codes and visual tokenizer. Checkout the [paper]() for details.
+
+
+## Contents
+- [Install](#install)
+- [Train Data](#training data)
+- [Train](#train)
+- [Evaluation](#evaluation)
+
+## Install
+
+If you are not using Linux, do *NOT* proceed.
+
+1. Clone this repository and navigate into the codebase
+```bash
+git clone https://github.com/Haochen-Wang409/ross.git
+cd asvr
+```
+
+2. Install Package
+```Shell
+conda create -n asvr python=3.10 -y
+conda activate asvr
+pip install --upgrade pip  # enable PEP 660 support
+pip install -e .
+```
+
+3. Install additional packages for training cases
+```
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+```
