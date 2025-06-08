@@ -13,7 +13,7 @@ In this paper, we introduce Autoregressive Semantic Visual Reconstruction , whic
 
 ## Contents
 - [Install](#install)
-- [Train Data](#training data)
+- [Training Data](#data)
 - [Train](#train)
 - [Evaluation](#evaluation)
 
