@@ -76,7 +76,7 @@ In ASVR, we evaluate models on a diverse set of benchmarks implemented based on 
 
 ## Citation
 
-If you find Ross useful for your research and applications, please cite using this BibTeX:
+If you find ASVR useful for your research and applications, please cite using this BibTeX:
 
 ## Acknowledgement
 - [LLaVA](https://github.com/haotian-liu/LLaVA): the codebase we built upon and the dataset we utilized.
