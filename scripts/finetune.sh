@@ -2,7 +2,7 @@
 export CUDA_LAUNCH_BLOCKING=1
 deepspeed ./train_mem.py \
     --deepspeed ./scripts/zero2.json \
-    --model_name_or_path lmsys/vicuna-7b-v1.5  \
+    --model_name_or_path ./checkpoints/asvr-vicuna-1.5-pretrain  \
     --version v1 \
     --data_path ./data/llava_v1_5_mix665k.json \
     --image_folder ./data/LLaVA_SFT_all \
