@@ -47,7 +47,7 @@ ASVR training consists of two stages:
 
 For GPU training on fewer GPUs, reduce the per_device_train_batch_size and increase the gradient_accumulation_steps accordingly, ensuring the global batch size remains the same: per_device_train_batch_size x gradient_accumulation_steps x num_gpus.
 
-## Download visual tokenizer config and checkpoints
+### Download visual tokenizer config and checkpoints
 
 ASVR takes the visual tokenizer from [Dualtoken](https://huggingface.co/Songweii/DualToken) to construct visual supervision targets.
 Downloading the config and checkpoints from [this URL]() and put them into ```./model_zoo```.
