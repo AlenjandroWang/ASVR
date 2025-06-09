@@ -50,7 +50,7 @@ For GPU training on fewer GPUs, reduce the per_device_train_batch_size and incre
 ### Download visual tokenizer config and checkpoints
 
 ASVR takes the visual tokenizer from [Dualtoken](https://huggingface.co/Songweii/DualToken) to construct visual supervision targets.
-Downloading the config and checkpoints from [this URL](https://drive.google.com/file/d/16iZh-M1TRVM7_7AwcMwYKMhL2JBAg6l4/view?usp=sharing) and put them into ```./model_zoo```.
+Downloading the config from [this URL](https://drive.google.com/file/d/16iZh-M1TRVM7_7AwcMwYKMhL2JBAg6l4/view?usp=sharing) and checkpoints from [this URL](https://drive.google.com/file/d/11jyGk2AssI5Irb71BExfssXEWFLsKfoY/view?usp=sharing) and put them into ```./model_zoo```.
 
 ### Pretrain
 
