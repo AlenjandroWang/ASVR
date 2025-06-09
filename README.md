@@ -58,7 +58,7 @@ Downloading the config and checkpoints from [this URL](https://drive.google.com/
 Pretrain Data ASVR used in the paper are include [LLaVA-1.5-pretrain-558k](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) and [bunny-pretrain-laion-2m](https://huggingface.co/datasets/BoyaWu10/Bunny-v1_1-data) 
 
 
-Training script with DeepSpeed ZeRO-2 can be found in ```scripts/pretrain.sh```. Global Batch Size is set 256
+Training script with DeepSpeed ZeRO-2 can be found in ```scripts/pretrain.sh```. Global Batch Size is 256
 
 - `--vision_tokenizer`: the visual tokenizer config.
 - `--vision_tokenizer_weight`: the visual tokenizer checkpoints.
@@ -67,7 +67,7 @@ Training script with DeepSpeed ZeRO-2 can be found in ```scripts/pretrain.sh```.
 
 Instruction Tuning Data ASVR used in the paper are include [LLaVA-1.5-665K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/blob/main/llava_v1_5_mix665k.json) , [LLaVA-Next-779K](https://huggingface.co/datasets/lmms-lab/LLaVA-NeXT-Data)and [Bunny-v1_1-data-2M](https://huggingface.co/datasets/BoyaWu10/Bunny-v1_1-data) 
 
-Training script with DeepSpeed ZeRO-2 can be found in ```scripts/finetune.sh```. Global Batch Size is set 128
+Training script with DeepSpeed ZeRO-2 can be found in ```scripts/finetune.sh```. Global Batch Size is 128
 
 ## Evaluation
 
