@@ -1,5 +1,7 @@
 # ASVR: Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better
 
+<a href="https://arxiv.org/abs/2506.09040"><img src='https://img.shields.io/badge/arXiv-ASVR-red' alt='Paper PDF'></a>
+
 🤔 Can autoregressive visual generation supervision improve VLMs' understanding capability? 
 
 🚀Reconstructing the visual semantics of images leads to better visual comprehension.
