@@ -9,7 +9,7 @@ In this paper, we introduce Autoregressive Semantic Visual Reconstruction , whic
 ![](./img/intro.png)
 
 ## Release
-- [2025/6/9] 🔥 We release **ASVR**, training codes and visual tokenizer. Checkout the [paper]() for details.
+- [2025/6/9] 🔥 We release **ASVR**, training codes and visual tokenizer. Checkout the [paper](https://arxiv.org/abs/2506.09040) for details.
 
 
 ## Contents
@@ -77,6 +77,17 @@ In ASVR, we evaluate models on a diverse set of benchmarks implemented based on 
 ## Citation
 
 If you find ASVR useful for your research and applications, please cite using this BibTeX:
+```bibtex
+@misc{wang2025autoregressivesemanticvisualreconstruction,
+      title={Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better}, 
+      author={Dianyi Wang and Wei Song and Yikun Wang and Siyuan Wang and Kaicheng Yu and Zhongyu Wei and Jiaqi Wang},
+      year={2025},
+      eprint={2506.09040},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.09040}, 
+}
+```
 
 ## Acknowledgement
 - [LLaVA](https://github.com/haotian-liu/LLaVA): the codebase we built upon and the dataset we utilized.
