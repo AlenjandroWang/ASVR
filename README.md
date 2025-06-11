@@ -6,10 +6,6 @@
 <a href=""><img src='https://img.shields.io/badge/Project_Page-ASVR-green' alt='Project Page'></a>
 </div>
 
-🤔 Can autoregressive visual generation supervision improve VLMs' understanding capability? 
-
-🚀Reconstructing the visual semantics of images leads to better visual comprehension.
-
 [Dianyi Wang*](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), 
 [Wei Song*](https://scholar.google.com/citations?hl=zh-CN&user=k0blIUIAAAAJ), 
 [Yikun Wang](https://scholar.google.com/citations?hl=zh-CN&user=4E7YCn4AAAAJ),
@@ -18,9 +14,11 @@
 [Zhongyu Wei](http://www.fudan-disc.com/people/zywei), and
 [Jiaqi Wang](https://myownskyw7.github.io/).
 
+🤔 Can autoregressive visual generation supervision improve VLMs' understanding capability? 
 
-> **Abstract.** Typical large vision-language models (LVLMs) apply autoregressive supervision solely to textual sequences, without fully incorporating the visual modality into the learning process. This results in three key limitations: (1) an inability to utilize images without accompanying captions, (2) the risk that captions omit critical visual details, and (3) the challenge that certain vision-centric content cannot be adequately conveyed through text. As a result, current LVLMs often prioritize vision-to-language alignment while potentially overlooking fine-grained visual information. While some prior works have explored autoregressive image generation, effectively leveraging autoregressive visual supervision to enhance image understanding remains an open challenge.
-In this paper, we introduce Autoregressive Semantic Visual Reconstruction , which enables joint learning of visual and textual modalities within a unified autoregressive framework. We show that autoregressively reconstructing the raw visual appearance of images does not enhance and may even impair multimodal understanding. In contrast, autoregressively reconstructing the semantic representation of images consistently improves comprehension. Notably, we find that even when models are given continuous image features as input, they can effectively reconstruct discrete semantic tokens, resulting in stable and consistent improvements across a wide range of multimodal understanding benchmarks. Our approach delivers significant performance gains across varying data scales (556k-2M) and types of LLM bacbones. Specifically, ASVR improves LLaVA-1.5 by 5% in average scores across 14 multimodal benchmarks.
+🚀 Reconstructing the visual semantics of images leads to better visual comprehension.
+
+> **Abstract.** Typical large vision-language models (LVLMs) apply autoregressive supervision solely to textual sequences, without fully incorporating the visual modality into the learning process. This results in three key limitations: (1) an inability to utilize images without accompanying captions, (2) the risk that captions omit critical visual details, and (3) the challenge that certain vision-centric content cannot be adequately conveyed through text. As a result, current LVLMs often prioritize vision-to-language alignment while potentially overlooking fine-grained visual information. While some prior works have explored autoregressive image generation, effectively leveraging autoregressive visual supervision to enhance image understanding remains an open challenge. In this paper, we introduce Autoregressive Semantic Visual Reconstruction , which enables joint learning of visual and textual modalities within a unified autoregressive framework. We show that autoregressively reconstructing the raw visual appearance of images does not enhance and may even impair multimodal understanding. In contrast, autoregressively reconstructing the semantic representation of images consistently improves comprehension. Notably, we find that even when models are given continuous image features as input, they can effectively reconstruct discrete semantic tokens, resulting in stable and consistent improvements across a wide range of multimodal understanding benchmarks. Our approach delivers significant performance gains across varying data scales (556k-2M) and types of LLM bacbones. Specifically, ASVR improves LLaVA-1.5 by 5% in average scores across 14 multimodal benchmarks.
 
 
 ![](./img/method.png)
