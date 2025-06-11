@@ -14,7 +14,7 @@
 [Zhongyu Wei](http://www.fudan-disc.com/people/zywei), and
 [Jiaqi Wang](https://myownskyw7.github.io/).
 
-<h4 align="left">
+<h5 align="left">
 
 🤔 Can autoregressive visual generation supervision improve VLMs' understanding capability? 
 
