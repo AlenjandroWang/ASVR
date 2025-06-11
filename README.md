@@ -1,6 +1,6 @@
 # ASVR: Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better
 
-<h5 align="center">
+<h4 align="center">
 
 <a href="https://arxiv.org/abs/2506.09040"><img src='https://img.shields.io/badge/arXiv-ASVR-red' alt='Paper PDF'></a>
 <a href=""><img src='https://img.shields.io/badge/Project_Page-ASVR-green' alt='Project Page'></a>
@@ -13,6 +13,8 @@
 [Kaicheng Yu](https://www.yukaicheng.cn/),
 [Zhongyu Wei](http://www.fudan-disc.com/people/zywei), and
 [Jiaqi Wang](https://myownskyw7.github.io/).
+
+<h4 align="left">
 
 🤔 Can autoregressive visual generation supervision improve VLMs' understanding capability? 
 
