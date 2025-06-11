@@ -5,7 +5,7 @@
 🚀Reconstructing semantic representations of images leads to better comprehension.
 
 [Dianyi Wang](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), 
-[Wei Song](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), 
+[Wei Song](https://scholar.google.com/citations?hl=zh-CN&user=k0blIUIAAAAJ), 
 [Yikun Wang](https://scholar.google.com/citations?hl=zh-CN&user=4E7YCn4AAAAJ),
 [Siyuan Wang](https://siyuanwangw.github.io/),
 [Kaicheng Yu](https://www.yukaicheng.cn/),
