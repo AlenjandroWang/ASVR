@@ -21,7 +21,6 @@ deepspeed ./train_mem.py \
     --mm_use_im_start_end False \
     --mm_use_im_patch_token False \
     --bf16 True \
-    --use_s2 False \
     --output_dir ./checkpoints/asvr-vicuna-1.5-pretrain \
     --num_train_epochs 1 \
     --per_device_train_batch_size 4 \
