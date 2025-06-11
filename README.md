@@ -1,13 +1,9 @@
 # ASVR: Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better
 
-<h4 align="center">
+<h4 align="left">
 
-<a href="https://arxiv.org/abs/2506.09040"><img src='https://img.shields.io/badge/arXiv-ASVR-red' alt='Paper PDF'></a>
-<a href=""><img src='https://img.shields.io/badge/Project_Page-ASVR-green' alt='Project Page'></a>
-</div>
-
-[Dianyi Wang*](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), 
-[Wei Song*](https://scholar.google.com/citations?hl=zh-CN&user=k0blIUIAAAAJ), 
+[Dianyi Wang**](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), 
+[Wei Song**](https://scholar.google.com/citations?hl=zh-CN&user=k0blIUIAAAAJ), 
 [Yikun Wang](https://scholar.google.com/citations?hl=zh-CN&user=4E7YCn4AAAAJ),
 [Siyuan Wang](https://siyuanwangw.github.io/),
 [Kaicheng Yu](https://www.yukaicheng.cn/),
@@ -27,7 +23,7 @@
 ![](./img/intro.png)
 
 ## Release
-- [2025/6/9] 🔥 We release **ASVR**, training codes and visual tokenizer. Checkout the [paper](https://arxiv.org/abs/2506.09040) for details.
+- [2025/06/09] 🔥 We have released **ASVR**. Checkout the [paper](https://arxiv.org/abs/2506.09040) for details.
 
 
 ## Contents
