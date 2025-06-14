@@ -92,14 +92,11 @@ In ASVR, we evaluate models on a diverse set of benchmarks implemented based on 
 
 If you find ASVR useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@misc{wang2025autoregressivesemanticvisualreconstruction,
-      title={Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better}, 
-      author={Dianyi Wang and Wei Song and Yikun Wang and Siyuan Wang and Kaicheng Yu and Zhongyu Wei and Jiaqi Wang},
-      year={2025},
-      eprint={2506.09040},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2506.09040}, 
+@article{wang2025autoregressive,
+  title={Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better},
+  author={Wang, Dianyi and Song, Wei and Wang, Yikun and Wang, Siyuan and Yu, Kaicheng and Wei, Zhongyu and Wang, Jiaqi},
+  journal={arXiv preprint arXiv:2506.09040},
+  year={2025}
 }
 ```
 
