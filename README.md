@@ -16,7 +16,24 @@
 
 🚀 Reconstructing the visual semantics of images leads to better visual comprehension.
 
-> **Abstract.** Typical large vision-language models (LVLMs) apply autoregressive supervision solely to textual sequences, without fully incorporating the visual modality into the learning process. This results in three key limitations: (1) an inability to utilize images without accompanying captions, (2) the risk that captions omit critical visual details, and (3) the challenge that certain vision-centric content cannot be adequately conveyed through text. As a result, current LVLMs often prioritize vision-to-language alignment while potentially overlooking fine-grained visual information. While some prior works have explored autoregressive image generation, effectively leveraging autoregressive visual supervision to enhance image understanding remains an open challenge. In this paper, we introduce Autoregressive Semantic Visual Reconstruction , which enables joint learning of visual and textual modalities within a unified autoregressive framework. We show that autoregressively reconstructing the raw visual appearance of images does not enhance and may even impair multimodal understanding. In contrast, autoregressively reconstructing the semantic representation of images consistently improves comprehension. Notably, we find that even when models are given continuous image features as input, they can effectively reconstruct discrete semantic tokens, resulting in stable and consistent improvements across a wide range of multimodal understanding benchmarks. Our approach delivers significant performance gains across varying data scales (556k-2M) and types of LLM bacbones. Specifically, ASVR improves LLaVA-1.5 by 5% in average scores across 14 multimodal benchmarks.
+> **Abstract.** Typical large vision-language models (LVLMs)
+apply autoregressive supervision primarily to
+textual responses, without fully exploiting
+causal learning over rich visual inputs. As a
+result, these models often emphasize vision to-language alignment while potentially over looking fine-grained visual information. While
+prior work has explored autoregressive image
+generation, effectively leveraging autoregressive visual supervision to enhance image understanding remains an open challenge. In
+this paper, we introduce Autoregressive Semantic Visual Reconstruction (ASVR), which enables joint learning of visual and textual modalities within a unified autoregressive framework.
+ASVR trains models to autoregressively reconstruct the semantic content of input images,
+which consistently enhances multimodal comprehension. Notably, we show that even when
+provided with continuous image features as input, models can effectively reconstruct discrete
+semantic tokens, resulting in stable and consistent improvements across various multimodal
+understanding benchmarks. ASVR delivers
+significant performance gains and scalability
+across varying data scales, visual input, visual
+supervision and model architectures. In particular, ASVR generally improves baselines by
+2-3% across 14 multimodal benchmarks.
+
 
 
 ![](./img/method.png)
