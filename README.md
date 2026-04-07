@@ -41,6 +41,7 @@ supervision and model architectures. In particular, ASVR generally improves base
 
 ## Release
 - [2025/06/09] 🔥 We have released **ASVR**. Checkout the [paper](https://arxiv.org/abs/2506.09040) for details.
+- [2026/04/07] 🎉 ASVR has been accepted to ACL 2026!!!
 
 
 ## Contents
